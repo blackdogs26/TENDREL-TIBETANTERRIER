@@ -793,3 +793,35 @@ body.menu-open .menu-drawer {
   .fci-block p { font-size: 17px; }
   .mydog-dogs { gap: 60px; }
 }
+
+/* お知らせ */
+.news {
+  background: #ffffff;
+}
+.news-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px 72px;
+}
+.news .section-title {
+  font-family: "Zen Kaku Gothic New", sans-serif;
+}
+.news-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: "Zen Kaku Gothic New", sans-serif;
+}
+.news-list li {
+  display: flex;
+  gap: 24px;
+  padding: 14px 0;
+  border-bottom: 1px solid #e3e0d8;
+}
+.news-date {
+  flex: 0 0 auto;
+}
+@media (max-width: 767px) {
+  .news-inner { padding: 0 24px 56px; }
+  .news-list li { flex-direction: column; gap: 4px; }
+}
